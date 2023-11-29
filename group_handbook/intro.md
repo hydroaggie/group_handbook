@@ -1,11 +1,12 @@
-# Welcome to your Jupyter Book
+# Welcome to our Group Handbook!
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+```{note}
+This is a living document and will be updated frequently.
+```
 
-Check out the content pages bundled with this sample book to see more.
+The goal of this group handbook is to provide resources and guidelines for students in [CIHG](https://hydroaggie.github.io/) group.
+
+This handbook is built using Jupyter Book and is hosted on GitHub. Check out the content pages below.
 
 ```{tableofcontents}
 ```
