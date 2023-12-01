@@ -6,8 +6,13 @@ format: jb-book
 defaults:
   numbered: true
 parts:
-- caption: Get started 
+- caption: Graduate student resources 
   chapters:
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
+  - file: part1/arrival
+    title: New arrival information
+  - file: part1/program
+    title: Degree program
+  - file: part1/funding
+    title: Student funding opportunities
+  - file: part1/conference
+    title: Professional conferences    
