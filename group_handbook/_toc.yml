@@ -9,9 +9,9 @@ parts:
 - caption: Graduate student resources 
   chapters:
   - file: part1/arrival
-    title: New arrival information
+    title: New arrival information  
   - file: part1/program
-    title: Degree program
+    title: Degree program  
   - file: part1/funding
     title: Student funding opportunities
   - file: part1/conference
