@@ -15,4 +15,18 @@ parts:
   - file: part1/funding
     title: Student funding opportunities
   - file: part1/conference
-    title: Professional conferences    
+    title: Professional conferences  
+  - file: part1/advice
+    title: Career advice    
+- caption: Computational resources 
+  chapters:
+  - file: part2/programming_basic
+    title: Programming basics  
+  - file: part2/tool
+    title: Software and tools  
+- caption: How-tos 
+  chapters:
+  - file: part3/literature_review
+    title: How to do literature review  
+  - file: part3/writing_paper
+    title: How to write a scentific paper  
