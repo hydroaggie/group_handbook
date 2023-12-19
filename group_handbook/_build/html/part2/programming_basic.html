@@ -382,9 +382,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linux-shell">6.1. Linux Shell</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">6.2. Git</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-editor">6.3. Text Editor</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-jupyter">6.4. Python/Jupyter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">6.5. Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-jupyter">6.3. Python/Jupyter</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown">6.4. Markdown</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-editor">6.5. Text Editor</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">6.6. Resources</a></li>
 </ul>
             </nav>
         </div>
@@ -410,26 +411,34 @@ document.write(`
 <p>Git is a version control tool that keeps track of history of files and make the work reproducible. It is recommended for lab members to use in their everyday tasks. Use <span class="xref myst">GitHub</span> as a platform for managing your projects.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://swcarpentry.github.io/git-novice/">Version Control with Git by Software Carpentry</a> Lesson on basics of Git developed by Software Carpentry. There is also a <a class="reference external" href="https://swcarpentry.github.io/git-novice-es/">Spanish version</a>.</p></li>
+<li><p><a class="reference external" href="https://github.com/ahamilton144/GitTutorial?tab=readme-ov-file">Git Tutorial by Andrew Hamilton</a> quick tutorial on Git and Github. Written for Windows users.</p></li>
+<li><p>I also wrote a simple Git tutorial <a class="reference external" href="https://hydroaggie.github.io/assets/pdf/Intro_to_Git.pdf">post</a>. The original version was created using <a class="reference external" href="https://help.obsidian.md/Plugins/Slides">Obsidian Slides</a>, which is good for presentation.</p></li>
 </ul>
 </section>
-<section id="text-editor">
-<h2><span class="section-number">6.3. </span>Text Editor<a class="headerlink" href="#text-editor" title="Permalink to this heading">#</a></h2>
-<p>A text editor on Unix-like system that helps with editing on remote servers. It will enhance your productivity like never before. My personal favorite is <a class="reference external" href="https://www.vim.org/">Vim</a> and <a class="reference external" href="https://neovim.io/">NeoVim</a>. <a class="reference external" href="https://www.gnu.org/software/emacs/">Emacs</a> is a good alternative, but is not my favorite. There are other editors including <code class="docutils literal notranslate"><span class="pre">nano</span></code> that are simple to use but with less functionality.</p>
-<p>If you prefer a text editor with nice user interface, try <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a> . It offers extensive flexibility and a large selection of extensions. It is one of my favorite code editing and debugging tools.</p>
-</section>
 <section id="python-jupyter">
-<h2><span class="section-number">6.4. </span>Python/Jupyter<a class="headerlink" href="#python-jupyter" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">6.3. </span>Python/Jupyter<a class="headerlink" href="#python-jupyter" title="Permalink to this heading">#</a></h2>
 <p>Python is an everyday tool that our lab will be using. It is also one of the most popular programming language for data analysis. If you have no prior experience with Python, I suggest you start with the following learning materials. Here are a list of online, free Python resources that I found useful:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a>. This lesson is developed by Software Carpentry with a focus on data analysis.</p></li>
 <li><p><a class="reference external" href="https://learnpythonwithjupyter.com/">Learn Python with Jupyter</a> Published by the official Jupyter community. Focus on the computational thinking development. Good for beginners without any programming experiences.</p></li>
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> Developed by Jake VanderPlas (Google). Provides quick introduction to Python and a few commonly used packages designed for data science. The nice thing about this book is that it provides the interactive Jupyter notebooks, which makes learning more fun! This book is for people with some background in Python. It also has a companion book (<a class="reference external" href="https://nbviewer.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb">A Whirlwind Tour of Python</a>, also free!) on a quick introduction to Python if you have prior experience in other programming languages.</p></li>
 <li><p><a class="reference external" href="https://wesmckinney.com/book/">Python for Data Analysis</a> By Wes Mckinney. This book focuses on data analysis using Python. All notebooks can be found on <a class="reference external" href="https://github.com/wesm/pydata-book">GitHub</a></p></li>
+<li><p><a class="reference external" href="https://github.com/Asabeneh/30-Days-Of-Python">30 Days of Python</a> by Asabeneh. This 30 days programming challenge is a step-by-step guide to learn the Python language. It comes with tutorials and YouTube videos.</p></li>
 <li><p><a class="reference external" href="https://chat.openai.com/">ChatGPT</a> Though this is not a book, it can be a great AI assistant for generating codes for you. The caveat is that you need to have some basic understanding of python to test if the AI generated code is correct or not.</p></li>
 </ul>
 </section>
+<section id="markdown">
+<h2><span class="section-number">6.4. </span>Markdown<a class="headerlink" href="#markdown" title="Permalink to this heading">#</a></h2>
+<p>Markdown is a simple markup language that helps with formatting fonts. It is open-source and can be edited by any plaintext editor. It is widely used on GitHub to create readme files and inside Jupyter Notebooks for documentation. In fact, you can build an entire book with nice formatting using markdown files (e.g., <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyter Book</a>).</p>
+<p>I have been using it daily for creating notes, especially those with codes. See a <a class="reference external" href="https://hydroaggie.github.io/assets/pdf/Intro_to_Markdown.pdf">quick tutorial</a> that I wrote.</p>
+</section>
+<section id="text-editor">
+<h2><span class="section-number">6.5. </span>Text Editor<a class="headerlink" href="#text-editor" title="Permalink to this heading">#</a></h2>
+<p>A text editor on Unix-like system that helps with editing on remote servers. It will enhance your productivity like never before. My personal favorite is <a class="reference external" href="https://www.vim.org/">Vim</a> and <a class="reference external" href="https://neovim.io/">NeoVim</a>. <a class="reference external" href="https://www.gnu.org/software/emacs/">Emacs</a> is a good alternative, but is not my favorite. There are other editors including <code class="docutils literal notranslate"><span class="pre">nano</span></code> that are simple to use but with less functionality.</p>
+<p>If you prefer a text editor with nice user interface, try <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a> . It offers extensive flexibility and a large selection of extensions. It is one of my favorite code editing and debugging tools.</p>
+</section>
 <section id="resources">
-<h2><span class="section-number">6.5. </span>Resources<a class="headerlink" href="#resources" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">6.6. </span>Resources<a class="headerlink" href="#resources" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.chpc.utah.edu/presentations/">CHPC seminars</a>: These are web seminars presented by the Center For High Performance Computing at University of Utah. Although many of those seminars are centered around HPC system, there are some useful hands-on tutorials of Linux, Git, and Python/R.</p></li>
 <li><p><a class="reference external" href="https://linkedinlearning.usu.edu/">LinkedIn Learning</a> : Free one month trial.  There are some lessons on <a class="reference external" href="https://www.linkedin.com/learning/topics/linux-2">Linux</a> and <a class="reference external" href="https://www.linkedin.com/learning/topics/python">Python</a>.</p></li>
@@ -503,9 +512,10 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linux-shell">6.1. Linux Shell</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">6.2. Git</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-editor">6.3. Text Editor</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-jupyter">6.4. Python/Jupyter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">6.5. Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-jupyter">6.3. Python/Jupyter</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown">6.4. Markdown</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-editor">6.5. Text Editor</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">6.6. Resources</a></li>
 </ul>
   </nav></div>
 
