@@ -11,6 +11,10 @@ You can find a brief timeline for PhD/MS/ME students [here](../attachments/CEE_G
 
 ## Milestones
 
+### Milestones for PhD students with MS
+
+Here is a typical milestone table for a PhD student who already possesses a Master's degree, although there may be variations among individuals.
+
 | Milestones                       |  Y1   |  Y1   |   Y1   |  Y2   |  Y2   |   Y2   | Y3    |  Y3   | Y3     | Y4    | Y4    |   Y4   |
 |:-------------------------------- |:-----:|:-----:|:------:|:-----:|:-----:|:------:| ----- |:-----:| ------ | ----- | ----- |:------:|
 |                                  | **F** | **Sp** | **Su** | **F** | **Sp** | **Su** | **F** | **Sp** | **Su** | **F** | **S** | **Su** |
