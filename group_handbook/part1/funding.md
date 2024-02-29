@@ -8,7 +8,7 @@ Here is an in-exaustive list:
 ### USU
 - [Presidential Doctoral Research Fellowship](https://research.usu.edu/pdrf/index) by Office of Research @USU. More information on current and past awardees from CEE can be found [here](https://research.usu.edu/pdrf/cee). Students will receive additional $10,000 stipend on top of their graduate student assistantship for four years.
 - [USU Graduate Funding Opportunities](https://www.usu.edu/involvement/funding/grad-opportunities) include **USUSA Graduate Enhancement Award (GEA)** and **Graduate Research and Creative Opportunities (GRCO) Grant**
-- [Climate Adaptation Science](https://www.usu.edu/climate-adaptation/apply) one-time payment, need to focus on climate related research (matasem has got one)
+- [Climate Adaptation Science](https://www.usu.edu/climate-adaptation/apply) one-time payment, need to focus on climate related research.
 
 ### State grants
 - [Doyle W. Stephens Scholarship for GSL Research](https://www.fogsl.org/programs/doyle-w-stephens-research-program) $2000. Must work on GSL related research
