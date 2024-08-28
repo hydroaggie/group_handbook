@@ -16,18 +16,18 @@ You can find a brief timeline for PhD/MS/ME students [here](../attachments/CEE_G
 
 Here is a typical milestone table for a PhD student who already possesses a Master's degree, although there may be variations among individuals.
 
-| Milestones                       |  Y1   |  Y1   |   Y1   |  Y2   |  Y2   |   Y2   | Y3    |  Y3   | Y3     | Y4    | Y4    |   Y4   |
-|:-------------------------------- |:-----:|:-----:|:------:|:-----:|:-----:|:------:| ----- |:-----:| ------ | ----- | ----- |:------:|
+| Milestones                       |  Y1   |   Y1   |   Y1   |  Y2   |   Y2   |   Y2   | Y3    |   Y3   | Y3     | Y4    | Y4    |   Y4   |
+| :------------------------------- | :---: | :----: | :----: | :---: | :----: | :----: | ----- | :----: | ------ | ----- | ----- | :----: |
 |                                  | **F** | **Sp** | **Su** | **F** | **Sp** | **Su** | **F** | **Sp** | **Su** | **F** | **S** | **Su** |
-| Program of Study                 |       |   X   |        |       |       |        |       |       |        |       |       |        |
-| Form Committee (1st Meeting)     |       |   X   |        |       |       |        |       |       |        |       |       |        |
-| Comprehensive Exam               |       |       |        |   X   |       |        |       |       |        |       |       |        |
-| 1st Paper Draft                  |       |       |        |       |       |   X    |       |       |        |       |       |        |
-| 2nd Paper Draft                  |       |       |        |       |       |        |       |       | X      |       |       |        |
-| Proposal Defense (PhD candidate) |       |       |        |       |       |        |       |   X   |        |       |       |        |
-| 3rd Paper Draft                  |       |       |        |       |       |        |       |       |        |       | X     |        |
-| Dissertation Draft               |       |       |        |       |       |        |       |       |        |       | X     |   X?   |
-| Dissertation Defense             |       |       |        |       |       |        |       |       |        |       | X     |   X?   |
+| Program of Study                 |       |   X    |        |       |        |        |       |        |        |       |       |        |
+| Form Committee (1st Meeting)     |       |   X    |        |       |        |        |       |        |        |       |       |        |
+| Comprehensive Exam               |       |        |        |   X   |        |        |       |        |        |       |       |        |
+| 1st Paper Draft                  |       |        |        |       |        |   X    |       |        |        |       |       |        |
+| Proposal Defense (PhD candidate) |       |        |        |       |        |        |       |   X    |        |       |       |        |
+| 2nd Paper Draft                  |       |        |        |       |        |        |       |        | X      |       |       |        |
+| 3rd Paper Draft                  |       |        |        |       |        |        |       |        |        |       | X     |        |
+| Dissertation Draft               |       |        |        |       |        |        |       |        |        |       | X     |   X?   |
+| Dissertation Defense             |       |        |        |       |        |        |       |        |        |       | X     |   X?   |
 
 
 ### Milestones for MS students 
