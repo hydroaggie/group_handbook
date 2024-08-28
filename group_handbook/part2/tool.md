@@ -23,7 +23,7 @@ A visual LaTex editor that helps with writing manuscripts (free for personal use
 ### [Obsidian](https://obsidian.md/) -- markdown editor
 A markdown editor that is good for taking notes. See this [blog](https://waterprogramming.wordpress.com/2022/10/21/markdown-based-scientific-and-computational-note-taking-with-obsidian/) on a quick introduction.
 
-I have written a tutorial on integrating Zotero with Obsidian for taking literature notes.
+I have written a [tutorial](https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/) on integrating Zotero with Obsidian for taking literature notes.
 
 ## Other
 
