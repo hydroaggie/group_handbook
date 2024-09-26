@@ -11,17 +11,21 @@ Here are the steps I take for writing an academic paper.
 
 ## Abstract
 
-Abstract follows the template:
-- Describe the broad problem your paper solves (1 sentence)
+A good abstract follows the scheme below:
+- Describe the broad problem you are solving (1 sentence)
+	- Introduce the broader field
 	- What is the problem?
 - Provide context needed to understand your study (1 sentence)
-	- Why are we doing this study? What is the knowledge gap?
-- State the central message of your study (1 sentence)
+	- What is missing in the literature (or the knowledge gap)? Why that matters? 
+	- A successful context distinguishes your study from others.
+- State the content of your study by describing your approach to fill the gap (1 sentence)
 	- "Here, we investigated...using xx approach"
-- Summarise your results (2~3 sentences). This should be the key findings.
+- Summarise your key results (2~3 sentences). 
 	- What did you find? 
-- State the broad perspective (1 sentence).
+	- What is the main conclusion?
+- State the broad perspective or significance of the study (1 sentence).
 	- What is the broad impact/implication of the study?
+	- Highlight the important implications
 
 
 ## References
