@@ -12,6 +12,8 @@ parts:
     title: New arrival information  
   - file: part1/program
     title: Degree program  
+  - file: part1/course
+    title: Course information  
   - file: part1/funding
     title: Student funding opportunities
   - file: part1/conference
