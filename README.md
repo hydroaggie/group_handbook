@@ -1,6 +1,6 @@
 # Group Handbook
 
-An handbook for CIHG at USU.
+A Handbook for SCI-Hy Group at USU.
 
 ## Usage
 
