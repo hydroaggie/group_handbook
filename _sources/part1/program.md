@@ -2,9 +2,7 @@
 
 Here are some guidelines on graduate degree programs.
 
-- [CEE Graduate Policies](https://engineering.usu.edu/cee/students/graduate/policies). This website provides the official policies regarding PhD program, comprehensive exam, and dissertation proposal.
-- [Graduate Handbook](https://engineering.usu.edu/cee/files/policies/cee-graduate-student-handbook.pdf)
-- [PhD Comprehensive Exam Policy](https://engineering.usu.edu/cee/files/policies/comprehensive-exam-policy.pdf)
+- [CEE Graduate Policies](https://engineering.usu.edu/cee/students/graduate/policies). This website provides the official policies regarding Graduate Student Handbook, PhD Comprehensive Exam Requirement, MS/PhD Research Proposal Requirements and Tempate. 
 
 ## Important timeline
 
