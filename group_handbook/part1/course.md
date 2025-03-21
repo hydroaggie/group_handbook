@@ -29,5 +29,5 @@ Below are some of the courses that are offered at USU that may be relevant to th
 - CEE 6110 Hydroinformatics (3). All about data and data management.
 - WILD 4100/6100 Scientific Communication for Natural Resource Professionals (new in 2025!)
 - PSC 5410 Hydroclimate (3). Talk about VIC model in class.
-- GEO 6800/7800 Applied Numerical Modeling and Machine Learning in the Geosciences (2). Covering machine learning, numerical method, CHPC, etc.
+- GEO 6800/7800 Applied Numerical Modeling and Machine Learning in the Geosciences (2, even years?). Covering machine learning, numerical method, CHPC, etc.
 - GEO 5520/6520	Techniques of Groundwater Investigations (3). Covering well drilling, sampling, water level measurement, etc.

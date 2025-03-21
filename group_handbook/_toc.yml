@@ -25,10 +25,12 @@ parts:
   - file: part2/programming_basic
     title: Programming basics  
   - file: part2/tool
-    title: Software and tools  
+    title: Software and tools   
 - caption: How-tos 
   chapters:
   - file: part3/literature_review
     title: How to do literature review  
   - file: part3/writing_paper
     title: How to write a scentific paper  
+  - file: part3/miscellaneous
+    title: Miscellaneous    
