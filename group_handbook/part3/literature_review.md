@@ -6,9 +6,10 @@ Literature review is the first step towards research.
 - [Google Scholar](https://scholar.google.com/) is my top choice for finding papers. Other useful search engines include [Scopus](https://www.scopus.com/search/form.uri?display=basic#basic), [Web of Science](https://www.webofscience.com/wos), [Research Gate](https://www.researchgate.net/), etc. You may want to try different combination of keywords to find the right articles.
 - [Elicit](https://elicit.com) An AI tool for finding papers. I often use this along with Google Scholar for best results.
 - [Litmaps](https://app.litmaps.com/) A useful AI tool if you have already found one paper. It can generate a map showing all the cited and citing papers based on a single paper you provided.
-- [SCISPACE](https://typeset.io/) An AI tool for finding literature. Similar to Elicit.
+- [SCISPACE](https://scispace.com/) An AI tool for finding literature. Similar to Elicit.
 - [Undermind](https://undermind.ai/) An AI tool for finding literature. Similar to Elicit and SCISPACE.
 - [Research Rabbit](https://www.researchrabbit.ai/) An AI tool for finding literature. Similar to Litmaps.
+- [Connect papers](https://www.connectedpapers.com/) A tool for finding literature. Similar to Litmaps and Research Rabbit.
 
 ## Workflow
 - Start with a broad search using Elicit or Undermind by asking a question related to your research topic. 
