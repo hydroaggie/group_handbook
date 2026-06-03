@@ -2,6 +2,25 @@
 
 A Handbook for SCI-Hy Group at USU.
 
+## Table of Contents
+
+**Part 1: Graduate Student Resources**
+- [New arrival information](group_handbook/part1/arrival.md)
+- [Degree program](group_handbook/part1/program.md)
+- [Course information](group_handbook/part1/course.md)
+- [Student funding opportunities](group_handbook/part1/funding.md)
+- [Professional conferences](group_handbook/part1/conference.md)
+- [Career advice](group_handbook/part1/advice.md)
+
+**Part 2: Computational Resources**
+- [Programming basics](group_handbook/part2/programming_basic.md)
+- [Software and tools](group_handbook/part2/tool.md)
+
+**Part 3: How-tos**
+- [How to do literature review](group_handbook/part3/literature_review.md)
+- [How to write a scientific paper](group_handbook/part3/writing_paper.md)
+- [Miscellaneous](group_handbook/part3/miscellaneous.md)
+
 ## Usage
 
 ### Building the book
