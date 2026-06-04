@@ -98,7 +98,9 @@ Stage 2 is where a paper stops being an isolated PDF and becomes connected to th
 
 This stage is reserved for the small number of papers that are foundational to my work — the ones I'll read and reread for hours. Because I'm investing so much time in them, I write a **one-page summary** of each. If I don't, most of that effort evaporates over the following months. I save these summaries alongside the paper (I attach a PDF of the summary back to the Zotero record so it travels with the paper).
 
-### Reading method Before writing the summary, I read with an outline. In the paper's Obsidian note I lay out the paper's own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph's main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.
+### Reading method 
+
+Before writing the summary, I read with an outline. In the paper's Obsidian note I lay out the paper's own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph's main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.
 
 ### A template for the summary itself
 
