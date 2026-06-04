@@ -64,7 +64,7 @@ Stage 2 is where a paper stops being an isolated PDF and becomes connected to th
 2. **Mark key points.** In the PDF I underline (in green) any clear contributions or key points I want to surface later in my notes.
 3. **Create the Obsidian note.** I push the paper into Obsidian so it has a home where I can link it to related ideas.
 
-   > *I use a Zotero-to-Obsidian import setup to generate these notes automatically from the paper's metadata, annotations, and my highlights. The mechanics of getting annotations across are covered in the group's blog post, [A Zotero-to-Obsidian Workflow](https://groundwater.usu.edu/blog/2023/A-Zotero-to-Obsidian-Workflow/); the rest of this section is what I do once the note exists.*
+   > *I use a Zotero-to-Obsidian import setup to generate these notes automatically from the paper's metadata, annotations, and my highlights. The mechanics of getting annotations across are covered in the group's blog post, [A Zotero-to-Obsidian Workflow](https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/); the rest of this section is what I do once the note exists.*
 
 4. **Record the contribution.** At a minimum, I write down what I can already tell is the paper's contribution.
 5. **Answer my open questions fast.** At this stage I usually have a few specific questions about the paper. A great shortcut is to load the PDF into [NotebookLM](https://notebooklm.google.com/) and just ask — it does a good job of pulling targeted answers straight from the source. (I keep my NotebookLM library sorted so I can quickly check whether I've already loaded a given paper, and I'm starting to link the NotebookLM page back into the paper's Obsidian note.)
@@ -99,5 +99,5 @@ That fourth point is the one that turns a passive summary into active scholarshi
 
 ## References
 
-- [A Zotero-to-Obsidian Workflow](https://groundwater.usu.edu/blog/2023/A-Zotero-to-Obsidian-Workflow/) — the group's blog post on importing Zotero items (metadata, annotations, highlights) into Obsidian.
+- [A Zotero-to-Obsidian Workflow](https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/) — the group's blog post on importing Zotero items (metadata, annotations, highlights) into Obsidian.
 - [NotebookLM](https://notebooklm.google.com/) — for quickly answering targeted questions straight from a paper's PDF.
