@@ -1,0 +1,663 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>10. A Paper Reading Workflow: From Zotero to Obsidian &#8212; Group Handbook</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'part3/reading_paper';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="11. How to write a scientific paper" href="writing_paper.html" />
+    <link rel="prev" title="9. How to do literature review" href="literature_review.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/group-logo.png" class="logo__image only-light" alt="Group Handbook - Home"/>
+    <script>document.write(`<img src="../_static/group-logo.png" class="logo__image only-dark" alt="Group Handbook - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to our Group Handbook!
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Graduate student resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../part1/arrival.html">1. New arrival information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/program.html">2. Degree program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/course.html">3. Course information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/funding.html">4. Student funding opportunities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/conference.html">5. Professional conferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part1/advice.html">6. Career advice</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Computational resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../part2/programming_basic.html">7. Programming basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part2/tool.html">8. Software and tools</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">How-tos</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="literature_review.html">9. How to do literature review</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">10. How to read and organize papers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing_paper.html">11. How to write a scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">12. Miscellaneous</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/hydroaggie/group_handbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/hydroaggie/group_handbook/issues/new?title=Issue%20on%20page%20%2Fpart3/reading_paper.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/part3/reading_paper.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>A Paper Reading Workflow: From Zotero to Obsidian</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-1-zotero-familiarize-and-categorize">10.1. Stage 1 — Zotero: Familiarize and Categorize</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tagging-the-most-important-habit-in-this-whole-workflow">10.1.1. Tagging — the most important habit in this whole workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#highlighting-the-abstract">10.1.2. Highlighting the abstract</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-2-obsidian-connect-and-question">10.2. Stage 2 — Obsidian: Connect and Question</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow">10.2.1. Workflow</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-3-the-full-read-and-a-written-summary">10.3. Stage 3 — The Full Read (and a Written Summary)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reading-method-before-writing-the-summary-i-read-with-an-outline-in-the-paper-s-obsidian-note-i-lay-out-the-paper-s-own-section-headings-methods-results-etc-and-as-i-read-jot-a-numbered-note-for-each-paragraph-s-main-point-under-the-relevant-heading-this-keeps-me-oriented-i-can-always-see-where-the-author-is-going-and-surfaces-the-key-points-as-i-go">10.3.1. Reading method Before writing the summary, I read with an outline. In the paper’s Obsidian note I lay out the paper’s own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph’s main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-template-for-the-summary-itself">10.3.2. A template for the summary itself</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">10.4. References</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="a-paper-reading-workflow-from-zotero-to-obsidian">
+<h1><span class="section-number">10. </span>A Paper Reading Workflow: From Zotero to Obsidian<a class="headerlink" href="#a-paper-reading-workflow-from-zotero-to-obsidian" title="Permalink to this heading">#</a></h1>
+<p><em>By Devon Hill (<a class="reference external" href="mailto:devon&#46;hill&#37;&#52;&#48;usu&#46;edu">devon<span>&#46;</span>hill<span>&#64;</span>usu<span>&#46;</span>edu</a>)</em></p>
+<p>This is the workflow I use to move a paper from “something I should probably read” to “something I actually understand and can build on.” It spans two tools — <strong>Zotero</strong> (for collecting, tagging, and annotating) and <strong>Obsidian</strong> (for connecting ideas and writing my own notes) — and it has three stages that map to how deeply I engage with a given paper.</p>
+<p>A quick note on philosophy: not every paper deserves the same amount of effort. Most papers only ever make it through Stage 1 or 2, and that’s the point. I reserve the deep, hours-long Stage 3 read for the handful of papers that are genuinely central to my research. Treating every paper as a full read is the fastest way to burn out and fall behind.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A few of the steps below are purely my own personal conventions. I’ve flagged those so you can take or leave them. The overall three-stage structure may be the part worth borrowing.</p>
+</div>
+<hr class="docutils" />
+<section id="stage-1-zotero-familiarize-and-categorize">
+<h2><span class="section-number">10.1. </span>Stage 1 — Zotero: Familiarize and Categorize<a class="headerlink" href="#stage-1-zotero-familiarize-and-categorize" title="Permalink to this heading">#</a></h2>
+<p>The goal of this stage is to get the paper into my library in a <em>findable</em> state without yet committing to reading it deeply. I focus on the abstract, the metadata, and tags.</p>
+<p>I load the paper into my main library and leave it unfiled — that “unfiled” state acts as my staging area.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Keep this staging pile small. When I added papers indiscriminately, I ended up with an overwhelming heap I never touched — not necessarily because the papers were irrelevant, but because there were simply too many to face. If a paper isn’t worth at least a tag explaining why I saved it, it probably isn’t worth saving.</p>
+</div>
+<p>My Stage 1 checklist:</p>
+<ol class="arabic simple">
+<li><p><em>(Personal convention)</em> Rename the primary PDF attachment to <strong>“main”</strong>. The file-type icon already tells me it’s a PDF, so I use the title to mark the one attachment where all my annotations and notes will live. This makes my primary attachments trivial to find later.</p></li>
+<li><p><em>(Personal convention)</em> Put the title in <strong>sentence case</strong>, with a short list of proper nouns I always capitalize (place names, etc.). This is just an APA-style consistency preference of mine — adopt it only if consistent casing matters to you.</p></li>
+<li><p>Fix the abstract text. Automated imports sometimes mangle it, so I clean it up here.</p></li>
+<li><p><strong>Add tags</strong> while I highlight the abstract (see the tagging and abstract sections below).</p></li>
+<li><p><em>(Personal convention)</em> Move the paper into a <strong>“Tagged”</strong> folder so I know it has cleared this stage.</p></li>
+</ol>
+<section id="tagging-the-most-important-habit-in-this-whole-workflow">
+<h3><span class="section-number">10.1.1. </span>Tagging — the most important habit in this whole workflow<a class="headerlink" href="#tagging-the-most-important-habit-in-this-whole-workflow" title="Permalink to this heading">#</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Keep a running, written list of every tag you use. This single habit is what makes a tag system actually work. Without it, you silently create <code class="docutils literal notranslate"><span class="pre">#groundwater</span></code>, <code class="docutils literal notranslate"><span class="pre">#ground-water</span></code>, and <code class="docutils literal notranslate"><span class="pre">#GW</span></code> for the same concept, and your tags stop being a reliable way to find things. I maintain a master list with a one-line definition of what each tag means and when I apply it.</p>
+</div>
+<p>I organize my tags into <strong>five broad groups</strong>, numbered 0–4. Numbering them keeps related tags together and gives me a mental checklist when I’m tagging a new paper:</p>
+<ul class="simple">
+<li><p><strong>0 — General subject area.</strong> The broad domain of the paper (e.g., cold-regions, karst, groundwater–surface-water interaction, ecohydrology). Deliberately broad.</p></li>
+<li><p><strong>1 — Site description.</strong> Everything about <em>where</em> the study took place: climate zone, permafrost type, ecosystem/vegetation, named study areas, and notable landforms. These let me build a library of “examples of research in environment X.”</p></li>
+<li><p><strong>2 — Paper type.</strong> Two flavors: the journal’s own categories (article, review, letter, comment) and a research-method classification I borrowed from a professor (model-based, field-based, lab-based, data-based, theory-based, etc.).</p></li>
+<li><p><strong>3 — Specific topics.</strong> The granular, content-level tags — the actual phenomena, methods, and concepts a paper is about. This group grows the fastest. I try to favor tags that map to <em>questions I might later ask</em> (e.g., “water-tracks” + “hillslope-hydrology”) rather than tags that only help with sorting.</p></li>
+<li><p><strong>4 — Status.</strong> Workflow markers like “read” and “summarized” that record how far I’ve taken a paper.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Turn off Zotero’s automatic tag import. Many papers arrive with dozens of publisher-supplied keyword tags, which flood your library (and, if you sync to Obsidian, pollute that too) with tags you’ll never use. You can stop this: in Zotero go to <strong>Settings → General</strong> and uncheck <strong>“Automatically tag items with keywords and subject headings.”</strong> From then on you control the tag vocabulary yourself, which is exactly what the running tag list above depends on.</p>
+<p>If you’ve already imported a library full of automatic tags, you can bulk-remove them from the tag selector in the bottom-left pane: right-click the filter and choose “Delete Automatic Tags in This Library.”</p>
+</div>
+</section>
+<section id="highlighting-the-abstract">
+<h3><span class="section-number">10.1.2. </span>Highlighting the abstract<a class="headerlink" href="#highlighting-the-abstract" title="Permalink to this heading">#</a></h3>
+<p>When I add a paper, I split the abstract into sentences and color-code each one by the role it plays. At minimum I use a <strong>three-part partition</strong>:</p>
+<ul class="simple">
+<li><p><strong>Introduction / background</strong> — the setup and motivation</p></li>
+<li><p><strong>Methods</strong> — what they did</p></li>
+<li><p><strong>Conclusion / results</strong> — what they found</p></li>
+</ul>
+<p>This makes the structure of the abstract visible at a glance and trains my eye to see how a well-built abstract is assembled.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You don’t have to stop at three parts. A typical abstract also contains a <strong>gap</strong> (the specific shortcoming in prior work the paper addresses) and <strong>implications</strong> (why the findings matter), and you may find it useful to highlight those separately. The right granularity is whatever helps <em>you</em> parse an abstract quickly — pick a scheme and apply it consistently.</p>
+</div>
+<p>I use a consistent color for each role. A simple, durable convention is something like: gray = introduction, orange = methods, magenta = conclusion. The specific colors matter far less than using the <em>same</em> colors every time.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="stage-2-obsidian-connect-and-question">
+<h2><span class="section-number">10.2. </span>Stage 2 — Obsidian: Connect and Question<a class="headerlink" href="#stage-2-obsidian-connect-and-question" title="Permalink to this heading">#</a></h2>
+<p>Stage 2 is where a paper stops being an isolated PDF and becomes connected to the rest of what I know. The goal is to capture the paper’s contribution and the questions it raises, in my own note system.</p>
+<section id="workflow">
+<h3><span class="section-number">10.2.1. </span>Workflow<a class="headerlink" href="#workflow" title="Permalink to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Skim for the contribution.</strong> I glance at the conclusions and the major figures so I have a working idea of what the paper actually contributes.</p></li>
+<li><p><strong>Mark key points.</strong> In the PDF I underline (in green) any clear contributions or key points I want to surface later in my notes.</p></li>
+<li><p><strong>Create the Obsidian note.</strong> I push the paper into Obsidian so it has a home where I can link it to related ideas.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I use a Zotero-to-Obsidian import setup to generate these notes automatically from the paper’s metadata, annotations, and my highlights. The mechanics of getting annotations across are covered in the group’s blog post, <a class="reference external" href="https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/">A Zotero-to-Obsidian Workflow</a>; the rest of this section is what I do once the note exists.</p>
+</div>
+</li>
+<li><p><strong>Record the contribution.</strong> At a minimum, I write down what I can already tell is the paper’s contribution.</p></li>
+<li><p><strong>Answer my open questions fast.</strong> At this stage I usually have a few specific questions about the paper. A great shortcut is to load the PDF into <a class="reference external" href="https://notebooklm.google.com/">NotebookLM</a> and just ask — it does a good job of pulling targeted answers straight from the source. (I keep my NotebookLM library sorted so I can quickly check whether I’ve already loaded a given paper, and I’m starting to link the NotebookLM page back into the paper’s Obsidian note.)</p></li>
+<li><p><strong>Go one level deeper on something.</strong> I pick one aspect to understand better — the study site, the methods, the modeling approach, or how it connects to other work.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you’re deciding whether a paper is worth a full read, start with the discussion. I picked this up from a panel of researchers: they read the discussion early because that’s where you can see how developed the authors’ thinking is and how well they connect their work to the broader literature.</p>
+<p>A caveat, though — discussions are hit-and-miss. Some papers have no discussion section at all (or fold it into the results), and among those that do, not all of them open with a tidy summary of the results. So this is a useful heuristic, not a guarantee; adapt to whatever structure the paper actually has.</p>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<hr class="docutils" />
+<section id="stage-3-the-full-read-and-a-written-summary">
+<h2><span class="section-number">10.3. </span>Stage 3 — The Full Read (and a Written Summary)<a class="headerlink" href="#stage-3-the-full-read-and-a-written-summary" title="Permalink to this heading">#</a></h2>
+<p>This stage is reserved for the small number of papers that are foundational to my work — the ones I’ll read and reread for hours. Because I’m investing so much time in them, I write a <strong>one-page summary</strong> of each. If I don’t, most of that effort evaporates over the following months. I save these summaries alongside the paper (I attach a PDF of the summary back to the Zotero record so it travels with the paper).</p>
+<section id="reading-method-before-writing-the-summary-i-read-with-an-outline-in-the-paper-s-obsidian-note-i-lay-out-the-paper-s-own-section-headings-methods-results-etc-and-as-i-read-jot-a-numbered-note-for-each-paragraph-s-main-point-under-the-relevant-heading-this-keeps-me-oriented-i-can-always-see-where-the-author-is-going-and-surfaces-the-key-points-as-i-go">
+<h3><span class="section-number">10.3.1. </span>Reading method Before writing the summary, I read with an outline. In the paper’s Obsidian note I lay out the paper’s own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph’s main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.<a class="headerlink" href="#reading-method-before-writing-the-summary-i-read-with-an-outline-in-the-paper-s-obsidian-note-i-lay-out-the-paper-s-own-section-headings-methods-results-etc-and-as-i-read-jot-a-numbered-note-for-each-paragraph-s-main-point-under-the-relevant-heading-this-keeps-me-oriented-i-can-always-see-where-the-author-is-going-and-surfaces-the-key-points-as-i-go" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="a-template-for-the-summary-itself">
+<h3><span class="section-number">10.3.2. </span>A template for the summary itself<a class="headerlink" href="#a-template-for-the-summary-itself" title="Permalink to this heading">#</a></h3>
+<p>The summary structure I use comes from guidance by Dr. Dennis Newell, which I’ve found to be an excellent, reusable framework for reading <em>and</em> writing about a paper. The core idea: <strong>write the summary for your future self</strong>, so you can refer back to it instead of rereading the whole paper. That means understanding the paper’s <em>organization</em> — make an outline — and summarizing only the most important statements as the authors build their argument from beginning to end.</p>
+<p>A good summary explicitly answers:</p>
+<ol class="arabic simple">
+<li><p><strong>Purpose.</strong> What is the broad purpose of the paper, the problem it addresses, and its specific goal? And what <em>type</em> of research is it — qualitative or quantitative; field-, lab-, or model-based; empirical, theoretical, or philosophical; a research paper or a review?</p></li>
+<li><p><strong>Methods &amp; data.</strong> What are the data? What are the research design and methods? What did they actually <em>do</em>?</p></li>
+<li><p><strong>Results &amp; conclusions.</strong> What are the main results, and then the take-home interpretations and conclusions?</p></li>
+<li><p><strong>Your assessment.</strong> Your own read on the paper’s strengths and weaknesses — its importance to the field, how it relates to other work, whether the data genuinely support the conclusions, whether there are important alternative interpretations the authors didn’t address, and even its readability.</p></li>
+</ol>
+<p>That fourth point is the one that turns a passive summary into active scholarship: it forces you to form and record your own judgment, which is exactly what you’ll want when you cite the paper later.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="references">
+<h2><span class="section-number">10.4. </span>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/">A Zotero-to-Obsidian Workflow</a> — the group’s blog post on importing Zotero items (metadata, annotations, highlights) into Obsidian.</p></li>
+<li><p><a class="reference external" href="https://notebooklm.google.com/">NotebookLM</a> — for quickly answering targeted questions straight from a paper’s PDF.</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./part3"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="literature_review.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">9. </span>How to do literature review</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="writing_paper.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">11. </span>How to write a scientific paper</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-1-zotero-familiarize-and-categorize">10.1. Stage 1 — Zotero: Familiarize and Categorize</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tagging-the-most-important-habit-in-this-whole-workflow">10.1.1. Tagging — the most important habit in this whole workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#highlighting-the-abstract">10.1.2. Highlighting the abstract</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-2-obsidian-connect-and-question">10.2. Stage 2 — Obsidian: Connect and Question</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow">10.2.1. Workflow</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-3-the-full-read-and-a-written-summary">10.3. Stage 3 — The Full Read (and a Written Summary)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reading-method-before-writing-the-summary-i-read-with-an-outline-in-the-paper-s-obsidian-note-i-lay-out-the-paper-s-own-section-headings-methods-results-etc-and-as-i-read-jot-a-numbered-note-for-each-paragraph-s-main-point-under-the-relevant-heading-this-keeps-me-oriented-i-can-always-see-where-the-author-is-going-and-surfaces-the-key-points-as-i-go">10.3.1. Reading method Before writing the summary, I read with an outline. In the paper’s Obsidian note I lay out the paper’s own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph’s main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-template-for-the-summary-itself">10.3.2. A template for the summary itself</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">10.4. References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Pin Shuai
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
