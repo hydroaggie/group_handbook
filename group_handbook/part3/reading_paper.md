@@ -1,6 +1,6 @@
 # A Paper Reading Workflow: From Zotero to Obsidian
 
-*By Devon Hill (devon.hill@usu.edu)*
+*By Devon Hill ([devon.hill@usu.edu](mailto:devon.hill@usu.edu))*
 
 This is the workflow I use to move a paper from "something I should probably read" to "something I actually understand and can build on." It spans two tools — **Zotero** (for collecting, tagging, and annotating) and **Obsidian** (for connecting ideas and writing my own notes) — and it has three stages that map to how deeply I engage with a given paper.
 
@@ -72,6 +72,8 @@ I use a consistent color for each role. A simple, durable convention is somethin
 
 Stage 2 is where a paper stops being an isolated PDF and becomes connected to the rest of what I know. The goal is to capture the paper's contribution and the questions it raises, in my own note system.
 
+### Workflow
+
 1. **Skim for the contribution.** I glance at the conclusions and the major figures so I have a working idea of what the paper actually contributes.
 2. **Mark key points.** In the PDF I underline (in green) any clear contributions or key points I want to surface later in my notes.
 3. **Create the Obsidian note.** I push the paper into Obsidian so it has a home where I can link it to related ideas.
@@ -96,7 +98,7 @@ Stage 2 is where a paper stops being an isolated PDF and becomes connected to th
 
 This stage is reserved for the small number of papers that are foundational to my work — the ones I'll read and reread for hours. Because I'm investing so much time in them, I write a **one-page summary** of each. If I don't, most of that effort evaporates over the following months. I save these summaries alongside the paper (I attach a PDF of the summary back to the Zotero record so it travels with the paper).
 
-**Reading method.** Before writing the summary, I read with an outline. In the paper's Obsidian note I lay out the paper's own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph's main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.
+### Reading method Before writing the summary, I read with an outline. In the paper's Obsidian note I lay out the paper's own section headings (Methods, Results, etc.) and, as I read, jot a numbered note for each paragraph's main point under the relevant heading. This keeps me oriented — I can always see where the author is going — and surfaces the key points as I go.
 
 ### A template for the summary itself
 
