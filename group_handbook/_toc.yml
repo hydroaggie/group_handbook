@@ -31,7 +31,7 @@ parts:
   - file: part3/literature_review
     title: How to do literature review
   - file: part3/reading_paper
-    title: Reading paper workflow
+    title: How to read and organize papers
   - file: part3/writing_paper
     title: How to write a scientific paper
   - file: part3/miscellaneous
