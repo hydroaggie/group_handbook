@@ -1,6 +1,6 @@
 # A Paper Reading Workflow: From Zotero to Obsidian
 
-*By Devon Hill*
+*By Devon Hill (devon.hill@usu.edu)*
 
 This is the workflow I use to move a paper from "something I should probably read" to "something I actually understand and can build on." It spans two tools — **Zotero** (for collecting, tagging, and annotating) and **Obsidian** (for connecting ideas and writing my own notes) — and it has three stages that map to how deeply I engage with a given paper.
 
