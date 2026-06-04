@@ -6,7 +6,9 @@ This is the workflow I use to move a paper from "something I should probably rea
 
 A quick note on philosophy: not every paper deserves the same amount of effort. Most papers only ever make it through Stage 1 or 2, and that's the point. I reserve the deep, hours-long Stage 3 read for the handful of papers that are genuinely central to my research. Treating every paper as a full read is the fastest way to burn out and fall behind.
 
-> **A few of the steps below are purely my own personal conventions.** I've flagged those so you can take or leave them. The overall three-stage structure may be the part worth borrowing.
+```{note}
+A few of the steps below are purely my own personal conventions. I've flagged those so you can take or leave them. The overall three-stage structure may be the part worth borrowing.
+```
 
 ---
 
@@ -16,7 +18,9 @@ The goal of this stage is to get the paper into my library in a *findable* state
 
 I load the paper into my main library and leave it unfiled — that "unfiled" state acts as my staging area.
 
-> A word of warning from experience: keep this staging pile small. When I added papers indiscriminately, I ended up with an overwhelming heap I never touched — not necessarily because the papers were irrelevant, but because there were simply too many to face. If a paper isn't worth at least a tag explaining why I saved it, it probably isn't worth saving.
+```{warning}
+Keep this staging pile small. When I added papers indiscriminately, I ended up with an overwhelming heap I never touched — not necessarily because the papers were irrelevant, but because there were simply too many to face. If a paper isn't worth at least a tag explaining why I saved it, it probably isn't worth saving.
+```
 
 My Stage 1 checklist:
 
@@ -28,7 +32,9 @@ My Stage 1 checklist:
 
 ### Tagging — the most important habit in this whole workflow
 
-> **Key tip: keep a running, written list of every tag you use.** This single habit is what makes a tag system actually work. Without it, you silently create `#groundwater`, `#ground-water`, and `#GW` for the same concept, and your tags stop being a reliable way to find things. I maintain a master list with a one-line definition of what each tag means and when I apply it.
+```{tip}
+Keep a running, written list of every tag you use. This single habit is what makes a tag system actually work. Without it, you silently create `#groundwater`, `#ground-water`, and `#GW` for the same concept, and your tags stop being a reliable way to find things. I maintain a master list with a one-line definition of what each tag means and when I apply it.
+```
 
 I organize my tags into **five broad groups**, numbered 0–4. Numbering them keeps related tags together and gives me a mental checklist when I'm tagging a new paper:
 
@@ -38,9 +44,11 @@ I organize my tags into **five broad groups**, numbered 0–4. Numbering them ke
 - **3 — Specific topics.** The granular, content-level tags — the actual phenomena, methods, and concepts a paper is about. This group grows the fastest. I try to favor tags that map to *questions I might later ask* (e.g., "water-tracks" + "hillslope-hydrology") rather than tags that only help with sorting.
 - **4 — Status.** Workflow markers like "read" and "summarized" that record how far I've taken a paper.
 
-> **Tip — turn off Zotero's automatic tag import.** Many papers arrive with dozens of publisher-supplied keyword tags, which flood your library (and, if you sync to Obsidian, pollute that too) with tags you'll never use. You can stop this: in Zotero go to **Settings → General** and uncheck **"Automatically tag items with keywords and subject headings."** From then on you control the tag vocabulary yourself, which is exactly what the running tag list above depends on.
->
-> *(If you've already imported a library full of automatic tags, you can bulk-remove them from the tag selector in the bottom-left pane: right-click the filter and choose "Delete Automatic Tags in This Library.")*
+```{tip}
+Turn off Zotero's automatic tag import. Many papers arrive with dozens of publisher-supplied keyword tags, which flood your library (and, if you sync to Obsidian, pollute that too) with tags you'll never use. You can stop this: in Zotero go to **Settings → General** and uncheck **"Automatically tag items with keywords and subject headings."** From then on you control the tag vocabulary yourself, which is exactly what the running tag list above depends on.
+
+If you've already imported a library full of automatic tags, you can bulk-remove them from the tag selector in the bottom-left pane: right-click the filter and choose "Delete Automatic Tags in This Library."
+```
 
 ### Highlighting the abstract
 
@@ -52,7 +60,9 @@ When I add a paper, I split the abstract into sentences and color-code each one 
 
 This makes the structure of the abstract visible at a glance and trains my eye to see how a well-built abstract is assembled.
 
-> You don't have to stop at three parts. A typical abstract also contains a **gap** (the specific shortcoming in prior work the paper addresses) and **implications** (why the findings matter), and you may find it useful to highlight those separately. The right granularity is whatever helps *you* parse an abstract quickly — pick a scheme and apply it consistently.
+```{tip}
+You don't have to stop at three parts. A typical abstract also contains a **gap** (the specific shortcoming in prior work the paper addresses) and **implications** (why the findings matter), and you may find it useful to highlight those separately. The right granularity is whatever helps *you* parse an abstract quickly — pick a scheme and apply it consistently.
+```
 
 I use a consistent color for each role. A simple, durable convention is something like: gray = introduction, orange = methods, magenta = conclusion. The specific colors matter far less than using the *same* colors every time.
 
@@ -66,15 +76,19 @@ Stage 2 is where a paper stops being an isolated PDF and becomes connected to th
 2. **Mark key points.** In the PDF I underline (in green) any clear contributions or key points I want to surface later in my notes.
 3. **Create the Obsidian note.** I push the paper into Obsidian so it has a home where I can link it to related ideas.
 
-   > *I use a Zotero-to-Obsidian import setup to generate these notes automatically from the paper's metadata, annotations, and my highlights. The mechanics of getting annotations across are covered in the group's blog post, [A Zotero-to-Obsidian Workflow](https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/); the rest of this section is what I do once the note exists.*
+   ```{note}
+   I use a Zotero-to-Obsidian import setup to generate these notes automatically from the paper's metadata, annotations, and my highlights. The mechanics of getting annotations across are covered in the group's blog post, [A Zotero-to-Obsidian Workflow](https://hydroaggie.github.io/blog/2023/A-Zotero-to-Obsidian-Workflow/); the rest of this section is what I do once the note exists.
+   ```
 
 4. **Record the contribution.** At a minimum, I write down what I can already tell is the paper's contribution.
 5. **Answer my open questions fast.** At this stage I usually have a few specific questions about the paper. A great shortcut is to load the PDF into [NotebookLM](https://notebooklm.google.com/) and just ask — it does a good job of pulling targeted answers straight from the source. (I keep my NotebookLM library sorted so I can quickly check whether I've already loaded a given paper, and I'm starting to link the NotebookLM page back into the paper's Obsidian note.)
 6. **Go one level deeper on something.** I pick one aspect to understand better — the study site, the methods, the modeling approach, or how it connects to other work.
 
-   > **Tip: if you're deciding whether a paper is worth a full read, start with the discussion.** I picked this up from a panel of researchers: they read the discussion early because that's where you can see how developed the authors' thinking is and how well they connect their work to the broader literature.
-   >
-   > A caveat, though — discussions are hit-and-miss. **Some papers have no discussion section at all** (or fold it into the results), and among those that do, **not all of them open with a tidy summary of the results.** So this is a useful heuristic, not a guarantee; adapt to whatever structure the paper actually has.
+   ```{tip}
+   If you're deciding whether a paper is worth a full read, start with the discussion. I picked this up from a panel of researchers: they read the discussion early because that's where you can see how developed the authors' thinking is and how well they connect their work to the broader literature.
+
+   A caveat, though — discussions are hit-and-miss. Some papers have no discussion section at all (or fold it into the results), and among those that do, not all of them open with a tidy summary of the results. So this is a useful heuristic, not a guarantee; adapt to whatever structure the paper actually has.
+   ```
 
 ---
 
