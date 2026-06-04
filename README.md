@@ -18,6 +18,7 @@ A Handbook for SCI-Hy Group at USU.
 
 **Part 3: How-tos**
 - [How to do literature review](group_handbook/part3/literature_review.md)
+- [How to read and organize papers](group_handbook/part3/reading_paper.md)
 - [How to write a scientific paper](group_handbook/part3/writing_paper.md)
 - [Miscellaneous](group_handbook/part3/miscellaneous.md)
 
