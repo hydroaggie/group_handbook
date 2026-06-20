@@ -5,7 +5,7 @@ There are a number of core and elective courses that are required for the CEE gr
 ## Core Courses
 
 **Fall**
-- CEE 5430/6430 Groundwater Engineering (3 credits, [syllabus](https://groundwater.usu.edu/assets/pdf/CEE_5430_6430_Groundwater_Engineering_Syllabus_Fall.pdf))
+- CEE 5430/6430 Groundwater Engineering (3, [syllabus](https://groundwater.usu.edu/assets/pdf/CEE_5430_6430_Groundwater_Engineering_Syllabus_Fall.pdf))
 - CEE 6400 Physical Hydrology (3).
 
 **Spring**
@@ -17,15 +17,16 @@ There are a number of core and elective courses that are required for the CEE gr
 Below are some of the courses that are offered at USU that may be relevant to the research in our group.
 
 **Fall**
-- CEE 6740 Surface Water Quality Modeling (4 credits, even years)
+- CEE 6740 Surface Water Quality Modeling (4, even years)
 - CEE 5410/6410 Water Resources Systems Analysis (3, even years)
 - CEE 6930 Hydrologic Field Methods (3, will be offered in 2025) 
 - CEE 6630 Process Dynamics (3). Covering solute transport, biogeochemistry, etc.
 - CEE 6930 Advanced Hydrology through CUAHSI Virtual University ([link](https://www.cuahsi.org/virtual-university))
 - WATS 6600 Environmental Water Management (3)
+- GEOG 6855 Advanced Geospatial Artificial Intelligence (3)
 
 **Spring**
-- CEE 5450/6450 Hydrological Modeling (3 credits, [syllabus](https://groundwater.usu.edu/assets/pdf/CEE_5450-6450_Hydrologic Modeling-2025-Syllabus.pdf))
+- CEE 5450/6450 Hydrological Modeling (3, [syllabus](https://groundwater.usu.edu/assets/pdf/CEE_5450-6450_Hydrologic%20Modeling-2025-Syllabus.pdf))
 - CEE 6110 Hydroinformatics (3). All about data and data management.
 - WILD 4100/6100 Scientific Communication for Natural Resource Professionals (new in 2025!)
 - PSC 5410 Hydroclimate (3). Talk about VIC model in class.
