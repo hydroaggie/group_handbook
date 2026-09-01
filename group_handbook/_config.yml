@@ -35,3 +35,11 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+# Copy the attachments folder verbatim into the site root so files like the
+# CEE timeline PDF can be linked directly (and opened inline in the browser)
+# instead of going through Sphinx's download handler, which forces a save.
+sphinx:
+  config:
+    html_extra_path:
+      - attachments
