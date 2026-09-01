@@ -6,7 +6,7 @@ Here are some guidelines on graduate degree programs.
 
 ## Important timeline
 
-You can find a brief timeline for PhD/MS/ME students <a href="../CEE_GradProgramReqs-Steps2023.pdf" target="_blank" rel="noopener">here</a> (credit: Dr. Beth Neilson).
+You can find a brief timeline for PhD/MS/ME students <a href="../CEE_GradProgramReqs.pdf" target="_blank" rel="noopener">here</a> (credit: Dr. Beth Neilson).
 
 ## Milestones
 
