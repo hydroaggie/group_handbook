@@ -6,7 +6,7 @@ Here are some guidelines on graduate degree programs.
 
 ## Important timeline
 
-You can find a brief timeline for PhD/MS/ME students [here](../attachments/CEE_GradProgramReqs-Steps2023.pdf) (credit: Dr. Beth Neilson).
+You can find a brief timeline for PhD/MS/ME students <a href="../CEE_GradProgramReqs-Steps2023.pdf" target="_blank" rel="noopener">here</a> (credit: Dr. Beth Neilson).
 
 ## Milestones
 
@@ -30,16 +30,16 @@ Here is a typical milestone table for a PhD student who already possesses a Mast
 
 ### Milestones for MS students 
 
-| Milestones                   |  Y1   |   Y1   |   Y1   |  Y2   |   Y2   |   Y2   | Y3    |   Y3   |
-| :--------------------------- | :---: | :----: | :----: | :---: | :----: | :----: | ----- | :----: |
-|                              | **F** | **Sp** | **Su** | **F** | **Sp** | **Su** | **F** | **Sp** |
-| Finalize Program of Study    |   X   |        |        |       |        |        |       |        |
-| Form Committee (1st Meeting) |   X   |        |        |       |        |        |       |        |
-| Complete Written Proposal    |       |   X    |        |       |        |        |       |        |
-| Proposal Defense             |       |   X    |        |       |        |        |       |        |
-| Thesis Draft                 |       |        |        |       |   X    |        |       |        |
-| Thesis Defense               |       |        |        |       |        |   X    |       |        |
-| 1st Paper Draft              |       |        |        |       |        |        | X     |   X?   |
+| Milestones                   |  Y1   |   Y1   |   Y1   |  Y2   |   Y2   |   Y2   | Y3    |
+| :--------------------------- | :---: | :----: | :----: | :---: | :----: | :----: | ----- |
+|                              | **F** | **Sp** | **Su** | **F** | **Sp** | **Su** | **F** |
+| Finalize Program of Study    |   X   |        |        |       |        |        |       |
+| Form Committee (1st Meeting) |   X   |        |        |       |        |        |       |
+| Complete Written Proposal    |       |   X    |        |       |        |        |       |
+| Proposal Defense             |       |   X    |        |       |        |        |       |
+| Thesis Draft                 |       |        |        |       |   X    |        |       |
+| Thesis Defense               |       |        |        |       |        |   X    |       |
+| 1st Paper Draft              |       |        |        |       |        |        | X?     |
 
 
 ```{note}
