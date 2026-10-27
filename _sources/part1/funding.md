@@ -33,8 +33,9 @@ Here is an in-exaustive list:
 - [Doyle W. Stephens Scholarship for GSL Research](https://www.fogsl.org/programs/doyle-w-stephens-research-program) $2000. Must work on GSL related research
 
 ## Travel Grants
-- USU Travel grant ($300 from Dept. and $300 from College)
+- USU Travel grant 
 	- [USU Graduate Student Travel Award](https://gradschool.usu.edu/costs/travel-grant) $300
+	- [USU Academic Opportunity Fund](https://www.usu.edu/involvement/funding/aof) $500 per individual.
 	- [College of Engineering Travel Award](https://engineering.usu.edu/students/travel-grants) $300
 - AGU/GSA conferences offer various travel grants.
 	- [AGU Student Travel Grants](https://www.agu.org/Learn-and-Develop/Learn/Travel-Research-Grants/Fall-Meeting-General-STG?) $1000
